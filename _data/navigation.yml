@@ -1,0 +1,87 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Finanzas"
+    url: /finanzas
+  - title: "Programación"
+    url: /programacion
+  - title: "Cheat Sheets"
+    url: /cheat_sheets
+  - title: "About"
+    url: /about
+
+
+finanzas:
+  - title: "Introducción"
+    children:
+      - title: "Notación"
+        url: /finanzas/notacion
+      - title: "Glosario"
+        url: /finanzas/glosario
+  - title: "Bibliografía"
+    children:
+      - title: "Fuentes"
+        url: /finanzas/bibliografia
+
+programacion:
+  - title: "Conceptos Básicos"
+    children:
+      - title: "Programación Orientada a Objetos"
+        url: /programacion/oop
+  - title: "Almacenamiento"
+    children:
+      - title: "Bases de datos"
+        url: /programacion/bases_datos
+
+cheat_sheets:
+  - title: "Matemáticas"
+    children:
+      - title: "Cálculo"
+        url: /cheat_sheets/calculo
+      - title: "Cálculo Multivariado"
+        url: /cheat_sheets/calculo_multivariado
+      - title: "Estadística"
+        url: /cheat_sheets/estadistica
+      - title: "Cálculo Estocástico"
+        url: /cheat_sheets/calculo_estocastico
+  - title: "Lenguajes de Programación"
+    children:
+      - title: "Python"
+        url: /cheat_sheets/python
+      - title: "C++"
+        url: /cheat_sheets/cplus
+      - title: "Swift"
+        url: /cheat_sheets/swift
+      - title: "Javascript"
+        url: /cheat_sheets/javascript
+      - title: "Git"
+        url: /cheat_sheets/git
+      - title: "LaTeX"
+        url: /cheat_sheets/latex
+  - title: "Frameworks"
+    children:
+      - title: "Django"
+        url: /cheat_sheets/django
+      - title: "Bootstrap"
+        url: /cheat_sheets/bootstrap
+      - title: "Jekyll"
+        url: /cheat_sheets/jekyll
+  - title: "Servidores"
+    children:
+      - title: "Apache"
+        url: /cheat_sheets/apache
+  - title: "Bases de datos"
+    children:
+      - title: "Postgresql"
+        url: /cheat_sheets/postgresql
+      - title: "SQL Server"
+        url: /cheat_sheets/sql_server
+  - title: "IDE"
+    children:
+      - title: "Pycharm"
+        url: /cheat_sheets/pycharm
+      - title: "VS Code"
+        url: /cheat_sheets/vscode
+      - title: "XCode"
+        url: /cheat_sheets/xcode

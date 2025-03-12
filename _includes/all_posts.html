@@ -1,0 +1,12 @@
+
+
+
+  <section id="all_posts" class="taxonomy__section">
+    <div class="entries-{{ entries_layout }}">
+      {% for post in site.posts %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+  </section>
+
+
